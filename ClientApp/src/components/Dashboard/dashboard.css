@@ -1,0 +1,60 @@
+﻿
+.formContainer {
+    padding: 0.5em;
+    
+}
+.form {
+    margin: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1em;
+    color: darkblue;
+    border: 1px solid black;
+    border-radius: 1%;
+    background-color: rgba(176,196,222,1);
+    box-shadow: 0 0 3px 2px black;
+}
+
+#eDetails{
+    color:black;
+}
+
+#dashboard {
+    padding:0.1em;
+    background-color: rgba(176,196,222,1);
+}
+
+.dashButton {
+    padding:1em;
+    margin-top:1em;
+}
+
+.active{
+    background-color:Highlight;
+    color:snow;
+}
+
+/*Join Team*/
+
+#mainComponentJT{
+    margin-top:20%;
+    display: flex;
+    flex-direction:column;
+}
+
+#mainComponentJT form{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+}
+    #mainComponentJT form input{
+        height:3em;
+        width:25em;
+        border:1px solid lightblue;
+    }
+
+    #mainComponentJT form button {
+       padding:0.1em 0.8em;
+        border: 1px solid lightblue;
+    }

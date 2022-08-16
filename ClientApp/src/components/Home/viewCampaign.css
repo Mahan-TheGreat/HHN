@@ -1,0 +1,71 @@
+﻿/*campaign*/
+
+#campaignHomeContainer {
+    display: flex;
+    overflow-x:scroll;
+    padding: 0.5em;
+}
+
+#campaignHome {
+    position:relative;
+    width: 350px;
+    min-width: 300px;
+    aspect-ratio:1/1;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgba(176,196,222,1);
+    border-radius:33px;
+    box-shadow: 0 0 5px 1px black;
+}
+
+#cancelButton{
+    padding:0.2em;
+    position:absolute;
+    top:0.1em;
+    right:-1em;
+    line-height:0.4em;
+    font-weight:bolder;
+    color:snow;
+}
+#campaignImageHome {
+    width:100%;
+}
+
+.cTextHome{
+    margin:0;
+    color:forestgreen;
+}
+
+/*Events*/
+
+#eventHomeContainer {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0.5em;
+}
+
+#eventHome {
+    width: 350px;
+    min-width: 300px;
+    padding: 0.7em;
+    margin-top:2em;
+    margin-inline: 1.7em;
+    background-color: rgba(20,20,50,0.8);
+    box-shadow: 0 0 5px 2px black;
+    transition: transform ease-in-out 0.4s 0.1s;
+    color:aliceblue;
+}
+
+#eventHome:hover{
+    transform:scale3d(1.01,1.02,1);
+    background-color:black;
+    color:white;
+}
+
+#eventImageHome {
+    width: 100%;
+}
+
+.eTextHome {
+    margin: 0;
+}

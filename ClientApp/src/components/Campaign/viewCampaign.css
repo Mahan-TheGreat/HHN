@@ -1,0 +1,49 @@
+﻿/*campaign*/
+
+#campaignHomeContainer {
+    display: flex;
+    overflow-x:scroll;
+    padding: 0.5em;
+}
+
+#campaignHome {
+    width: 500px;
+    min-width: 300px;
+    padding: 1em;
+    margin: 1em;
+    background-color: cadetblue;
+    box-shadow: 0 0 5px 2px black;
+}
+
+#campaignImageHome {
+    width:100%;
+}
+
+.cTextHome{
+    margin:0;
+}
+
+/*Events*/
+
+#eventHomeContainer {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0.5em;
+}
+
+#eventHome {
+    width: 500px;
+    min-width: 300px;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgba(120,50,130,0.2);
+    box-shadow: 0px 0px 15px 5px lightgray;
+}
+
+#eventImageHome {
+    width: 100%;
+}
+
+.eTextHome {
+    margin: 0;
+}
